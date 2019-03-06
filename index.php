@@ -1,7 +1,7 @@
 <?php
 $email = 'mayank.patel104@gmail.com';
-$list_id = '5f5ff7a12c';
-$api_key = 'a784b57bd25fa17045751353c5e7e079-us19';
+$list_id = '111111';
+$api_key = '111111-us19';
 $data_center = substr($api_key,strpos($api_key,'-')+1);
 $url = 'https://'. $data_center .'.api.mailchimp.com/3.0/lists/'. $list_id .'/members';
 $json = json_encode([
